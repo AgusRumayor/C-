@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Graphics="Microsoft.Xna.Framework.Graphics" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Arial.spritefont</Source>
+      <Name>Arial</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mis Documentos\Visual Studio 2005\Projects\Juego\Juego\bin\x86\Debug\Content\Arial.xnb</Output>
+      <Time>2007-11-26T11:33:34-06:00</Time>
+    </Item>
+    <Item>
+      <Source>arrow.fbx</Source>
+      <Name>arrow</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mis Documentos\Visual Studio 2005\Projects\Juego\Juego\bin\x86\Debug\Content\arrow.xnb</Output>
+      <Time>2009-05-01T10:06:42-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\arrow%0.xml</Key>
+        <Value>2009-05-11T16:17:42.28125-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Blanco.fbx</Source>
+      <Name>Blanco</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mis Documentos\Visual Studio 2005\Projects\Juego\Juego\bin\x86\Debug\Content\Blanco.xnb</Output>
+      <Time>2009-04-24T22:57:30-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Blanco%0.xml</Key>
+        <Value>2009-05-11T16:17:42.546875-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>bow.fbx</Source>
+      <Name>bow</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mis Documentos\Visual Studio 2005\Projects\Juego\Juego\bin\x86\Debug\Content\bow.xnb</Output>
+      <Time>2009-05-01T10:51:06-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\bow%0.xml</Key>
+        <Value>2009-05-11T16:17:42.84375-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>edificio.fbx</Source>
+      <Name>edificio</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mis Documentos\Visual Studio 2005\Projects\Juego\Juego\bin\x86\Debug\Content\edificio.xnb</Output>
+      <Time>2009-04-30T22:59:08-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\edificio%0.xml</Key>
+        <Value>2009-05-11T16:18:04.9375-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Flecha.fbx</Source>
+      <Name>Flecha</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mis Documentos\Visual Studio 2005\Projects\Juego\Juego\bin\x86\Debug\Content\Flecha.xnb</Output>
+      <Time>2009-04-24T23:25:28-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Flecha%0.xml</Key>
+        <Value>2009-05-11T16:18:05.640625-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Ground.x</Source>
+      <Name>Ground</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mis Documentos\Visual Studio 2005\Projects\Juego\Juego\bin\x86\Debug\Content\Ground.xnb</Output>
+      <Time>2009-04-24T23:45:22-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Ground%0.xml</Key>
+        <Value>2009-05-11T16:18:06.078125-05:00</Value>
+      </Dependency>
+      <Request>D:\Mis Documentos\Visual Studio 2005\Projects\Juego\Juego\bin\x86\Debug\Content\grass1%0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>arrow.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\arrow%0.xml</Output>
+      <Time>2009-05-01T10:06:42-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Blanco.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Blanco%0.xml</Output>
+      <Time>2009-04-24T22:57:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>bow.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\bow%0.xml</Output>
+      <Time>2009-05-01T10:51:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>edificio.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\edificio%0.xml</Output>
+      <Time>2009-04-30T22:59:08-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Flecha.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Flecha%0.xml</Output>
+      <Time>2009-04-24T23:25:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Ground.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Ground%0.xml</Output>
+      <Time>2009-04-24T23:45:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>grass1.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Mis Documentos\Visual Studio 2005\Projects\Juego\Juego\bin\x86\Debug\Content\grass1%0.xnb</Output>
+      <Time>2009-04-24T23:47:34-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <RootDirectory>D:\Mis Documentos\Visual Studio 2005\Projects\Juego\Juego\Content\</RootDirectory>
+      <LoggerRootDirectory>D:\Mis Documentos\Visual Studio 2005\Projects\Juego\Juego\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\Mis Documentos\Visual Studio 2005\Projects\Juego\Juego\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\Mis Documentos\Visual Studio 2005\Projects\Juego\Juego\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2007-11-28T12:08:00-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2007-11-28T12:08:42-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2007-11-28T12:08:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2007-11-28T12:07:44-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\2.0.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2009-05-11T15:02:41.6875-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
